@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "buildCommand": "cd neo_bank-main && npm install && npm run build",
+  "outputDirectory": "neo_bank-main/build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
