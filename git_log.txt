@@ -1,0 +1,17 @@
+Starting Git Push Process 
+origin	https://github.com/surendran1402/neo_bank_website.git (fetch)
+origin	https://github.com/surendran1402/neo_bank_website.git (push)
+Setting remote URL... 
+Adding files... 
+warning: in the working copy of 'backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git_log.txt', LF will be replaced by CRLF the next time Git touches it
+Committing... 
+[main cd36d92] Pushing full project to new repo
+Branching... 
+Pushing... 
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+Done. 

@@ -1,0 +1,15 @@
+# General
+.idea/
+*.iml
+*.log
+**/.DS_Store
+*.bat
+
+# Backend
+backend/target/
+
+# Frontend
+neo_bank-main/node_modules/
+neo_bank-main/dist/
+neo_bank-main/build/
+neo_bank-main/uploads/
