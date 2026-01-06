@@ -1,15 +1,23 @@
-# General
+# IDE
 .idea/
 *.iml
-*.log
-**/.DS_Store
-*.bat
 
-# Backend
+# Build output
 backend/target/
-
-# Frontend
-neo_bank-main/node_modules/
-neo_bank-main/dist/
 neo_bank-main/build/
+neo_bank-main/dist/
+
+# Dependencies
+backend/apache-maven-3.9.6/
+neo_bank-main/node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Uploads
 neo_bank-main/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
