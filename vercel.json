@@ -2,7 +2,7 @@
 {
   "version": 2,
   "buildCommand": "cd neo_bank-main && npm install && npm run build",
-  "outputDirectory": "neo_bank-main/build",
+  "outputDirectory": "neo_bank_main/build",
   "rewrites": [
     {
       "source": "/(.*)",
