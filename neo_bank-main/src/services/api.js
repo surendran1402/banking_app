@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:8080/api',
+  baseURL: "https://bankingapp-production-19ba.up.railway.app/",
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
